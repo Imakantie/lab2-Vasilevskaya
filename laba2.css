@@ -1,0 +1,34 @@
+li:before {
+    content: "-> "; 
+  }
+  li {
+    list-style: none; 
+}
+.flexbox
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    text-align: center;
+   
+}
+.flexcenter
+{ 
+background-color: darkblue;
+height: 450px;
+width: 225px;
+border:10px solid white;
+}
+.flexstandart
+{
+background-color: darkblue;
+height: 225px;
+width: 225px;
+border:10px solid white;
+color: white;
+}
+body { 
+  background-image: url(2.png);
+ background-position:220% 25%;
+background-repeat: repeat-x;
+}
